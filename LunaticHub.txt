@@ -1,0 +1,13 @@
+if game.placeId == 155615604 then -- prison life
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyron14-max/Lunatic/main/games/PrisonLife.lua"))()
+
+elseif  game.placeId == 3956818381  then -- ninja legends
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyron14-max/Lunatic/main/games/NinjaLegends.lua"))()
+
+elseif game.placeId == 1537690962 then -- Bee Swarm Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyron14-max/Lunatic/main/games/BeeSwarmSimulator.lua"))()
+elseif game.placeId == 6447798030 then -- Funky Friday
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyron14-max/Lunatic/main/games/FunkyFriday.lua"))()
+else
+ game.Players.LocalPlayer:Kick("Game not supported")
+end
